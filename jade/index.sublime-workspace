@@ -1,0 +1,345 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"Evan",
+				"EvanSkrederstu"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"i",
+				"in"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Larks/Google Drive/Work Projects/Quality and Efficient Movers/Site/css/1-base/_base.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/ziv-koren.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/ziv-press.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/ziv-press-old.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/color_ziv_press_new.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/color_styles.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/style.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/index.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/Quality and Efficient Movers/Site/css/3-layouts/_home.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/evan-skrederstu.jade",
+		"/C/Users/Larks/Desktop/application.css",
+		"/C/Users/Larks/Google Drive/Work Projects/Quality and Efficient Movers/Site/jade/index.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/Quality and Efficient Movers/Site/css/2-modules/_home--module.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/Quality and Efficient Movers/Site/css/0-plugins/_normalize.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/Quality and Efficient Movers/Site/index.html",
+		"/C/Users/Larks/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Larks/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/why-invest.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/why_invest.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/ziv-black-and-white.jade",
+		"/C/Users/Larks/Desktop/Code Practice/css/style.css",
+		"/C/Users/Larks/Desktop/Code Practice/gulpfile.js",
+		"/C/Users/Larks/Desktop/Code Practice/css/style.scss",
+		"/C/Users/Larks/Desktop/Code Practice/css/1-base/home.scss",
+		"/C/Users/Larks/Desktop/Code Practice/css/1-base/base-dir.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/docwrapper.jade",
+		"/C/Users/Larks/Desktop/Code Practice/jade/index.jade",
+		"/C/Users/Larks/Desktop/Code Practice/package.json",
+		"/C/Users/Larks/Desktop/Code Practice/css/0-plugins/normalize.scss",
+		"/C/Users/Larks/Desktop/Code Practice/css/0-plugins/plugins-dir.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/artists-content.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/yaacov-agam.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/color_artists.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/header.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/news.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/fonts.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/fonts/New folder/style.css",
+		"/C/Users/Larks/Desktop/Code Practice/scripts/main.js",
+		"/C/Users/Larks/Desktop/Code Practice/index.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/ziv-koren.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/evan-bugs.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/evan-paintings.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/about_us.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/manage-portfolio.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/about-us.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/alexander-kanchik.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/ml-snowden.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/ml-snowden.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/marc-chagall.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/marc-chagall.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/menashe-kadishman.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/menashe-kadishman.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/moshe-castel.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/moshe-castel.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/nachum-gutman.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/nachum-gutman.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/reuven-rubin.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/reuven-rubin.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/yosl-bergner.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/yosl-bergner.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/php/index.php",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/manage-portfolio.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/css/manage-portfolio.css",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/manage-portfolio.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/index.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/color_ziv_press.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/ziv-color.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/ziv-press.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/artists.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/scss/artists.scss",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/ziv-press.html",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/jade/adolf-adler.jade",
+		"/C/Users/Larks/Google Drive/Work Projects/ArteQuesta/Site/css/artists-content.css"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".snippet-link	",
+			"h4",
+			".snippet-link",
+			"a( href=\"htt",
+			"hr.snipp",
+			".bottom-snippet",
+			".top-snippet",
+			".bottom-snippet",
+			".top-snippet",
+			".top-snippet,",
+			".bottom-sni",
+			".right-sni",
+			"q",
+			"a ",
+			"section.new",
+			".snippets",
+			"wrap",
+			"snipp",
+			"sni",
+			"snippe",
+			"masonry",
+			"brick",
+			".masonry",
+			".body",
+			"body",
+			"theme_garden",
+			"nth-child(6)",
+			"nth",
+			"piece.clearfix\n",
+			"clearfix	",
+			"e.clearfix",
+			"artist",
+			"a(href=",
+			".right-",
+			".midd",
+			".left-c",
+			"artists",
+			"img",
+			"artists",
+			"gallery",
+			"aura-north",
+			"img",
+			"B&W",
+			".left-column.one-column.clearfix",
+			"a( href",
+			"../",
+			"artists"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

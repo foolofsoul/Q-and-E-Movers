@@ -1,0 +1,168 @@
+.contact-info h4 {
+	margin: 0;
+	color: $orange;
+}
+
+.contact-info {
+	border-right: 1px dashed $white;
+
+	.phone, .email {
+		margin-bottom: .5rem;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	a,
+	a:link,
+	a:visited {
+		color: $white;
+	}
+
+	a:hover,
+	a:active {
+		color: #dedede;
+	}
+}
+
+.contact-form {
+	text-align: left;
+
+	h3 {
+		font-weight: $semibold;
+		margin-bottom: 1rem;
+	}
+
+	fieldset {
+		padding: 0;
+		border: none;
+	}
+
+	label, input {
+		display: block;
+	}
+
+	label {
+		margin-bottom: 1rem;
+	}
+
+	input, textarea {
+		font-size: 0.875rem;
+		width: 100%;
+		height: 2.25rem;
+		border: 1px solid $orange;
+		color: $body-text;
+		padding: .5rem;
+
+		@include placeholder {
+			color: #ccc;
+		}
+
+		&::-webkit-datetime-edit-text, /* this makes the slashes in dd/mm/yyyy grey */
+		&::-webkit-datetime-edit-day-field[aria-valuetext=blank],
+		&::-webkit-datetime-edit-month-field[aria-valuetext=blank],
+		&::-webkit-datetime-edit-year-field[aria-valuetext=blank] {
+		  color: #ccc;
+		}
+	}
+
+	.details {
+		margin-bottom: 2.125rem;
+
+		textarea {
+			width: 100%;
+			height: 7rem;
+		}
+	}
+
+	.submit {
+		text-align: center;
+		border: none;
+		background: $orange;
+		color: $white;
+		text-transform: uppercase;
+	}
+
+	.submit:hover,
+	.submit:active {
+		cursor: pointer;
+		background: $shade-orange;
+
+	}
+}
+
+@media (max-width: 68.75rem) {
+	.contact-info {
+		border-right: none;
+		margin-bottom: 3rem;
+
+		.phone, .email, .hours {
+			@include span-columns(4 of 12);
+			text-align: center;
+		}	
+	}
+
+	.contact-form h3{
+		text-align: center;
+	}
+}
+
+@media (max-width: 45.625rem) {
+	.contact-info {
+		margin-bottom: 0;
+		
+		.phone, .email, .hours {
+			@include span-columns(6 of 12);
+			margin-bottom: 3rem;
+		}
+
+		.email {
+			margin-right: 0;
+		}
+
+		.hours {
+			@include row();
+			@include shift(3);
+		}
+	}
+}
+
+@media (max-width: 35.625rem) {
+	.contact-info {			
+		.phone, .email, .hours {
+			margin-right: 0;
+			@include span-columns(12 of 12);
+			@include row();
+		}
+
+		.hours {
+			@include shift(0);
+		}
+	}
+
+	.contact-form
+		fieldset
+			.input-column {
+				@include span-columns(6 of 12);
+
+				&:nth-child(3) {
+					margin-right: 0;
+				}
+
+				&:last-child {
+					@include row();
+					@include span-columns(12 of 12);
+				}
+			}
+}
+
+@media (max-width: 25rem) {
+	.contact-form
+		fieldset
+			.input-column {
+				margin-right: 0;
+				@include row();
+				@include span-columns(12 of 12);
+			}
+}

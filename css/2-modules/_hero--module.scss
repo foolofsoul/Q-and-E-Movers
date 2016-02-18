@@ -1,0 +1,101 @@
+.hero {
+	background: 
+		linear-gradient(
+			rgba(0, 0, 0, .15), 
+			rgba(0, 0, 0, .15)
+		), 
+		url("../assets/img/hero.jpg") no-repeat 0px;
+	background-size: cover;
+	z-index: 1;
+
+	h3 {
+		width: 100%;
+		font-weight: $bold;
+		font-size: 3rem;
+		color: $white;
+		margin-bottom: 4rem;
+	}
+	
+	.hero-quote {
+		font-size: 4rem;
+		color: $dark-blue;
+		background: {
+			color: $white;
+		}
+		padding: 1rem 1.5rem;
+	}
+
+	.cta a,
+	.cta a:link,
+	.cta a:visited {
+		font-size: 1.5rem;
+		padding: 1rem 4.5rem;
+		color: $white;
+		background-color: $orange;
+	}
+
+	.cta a:hover,
+	.cta a:active {
+		background-color: $shade-orange;
+	}
+}
+
+@media (max-width: 62.5rem) {
+	.hero {
+		h3 {
+			font-size: 2rem;
+			margin-bottom: 2rem;
+		}
+
+		.hero-quote {
+			font-size: 3rem;
+			margin-left: 2rem;
+			margin-right: 2rem;
+		}
+
+		.cta a,
+		.cta a:link,
+		.cta a:visited {
+			font-size: 1rem;
+			padding: 1rem 3.5rem;
+		}
+	}
+}
+
+@media (max-width: 46.875rem) {
+	.hero {
+		h3 {
+			line-height: 1.25;
+		}
+
+		.hero-quote {
+			display: block;
+			margin-left: 6rem;
+			margin-right: 6rem;
+		}
+	}
+}
+
+@media (max-width: 43.75rem) {
+	.hero {
+		.hero-intro {
+			display: inline-block;
+			margin: 0 4rem -2rem;
+
+		}
+	}
+}
+
+@media (max-width: 31.25rem) {
+	.hero {
+		.hero-intro {
+			margin-left: 2rem;
+			margin-right: 2rem;
+		}
+
+		.hero-quote {
+			margin-left: 3rem;
+			margin-right: 3rem;
+		}
+	}
+}

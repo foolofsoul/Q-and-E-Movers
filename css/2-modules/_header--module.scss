@@ -1,0 +1,66 @@
+/*----- Header Colors ------------------------------*/
+
+.header-container {
+	color: $body-text;
+
+	.header {
+		background: $white;
+		box-shadow: 0 0 5px #777;
+	}
+}
+
+
+/*----- Navigation ------------------------------*/
+.header {
+	a {
+		font-size: 1rem;
+		color: $body-text;
+	}
+
+	a:hover,
+	a:active,
+	a.nav-active {
+		font-weight: $medium;
+		color: $orange;
+	}
+}
+
+.main-nav {
+	ul {
+		padding: 0;
+	}
+}
+
+.main-nav {
+	li {
+		color: $body-text;
+		font: 300 1rem "Raleway", $helvetica;
+		text-align: right;
+		text-transform: uppercase;
+		margin-bottom: 2em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}	
+	}
+}
+
+@media (max-height: 50rem) {
+	.main-nav {
+		li {
+			margin-bottom: 1.5em;
+		}
+	}
+}
+
+@media (max-height: 23.125rem) {
+	.main-nav {
+		li {
+			margin-bottom: .80em;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
